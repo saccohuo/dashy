@@ -44,4 +44,8 @@ sections:
     description: Get help with Dashy, raise a bug, or get in contact
     url: https://github.com/Lissy93/dashy/blob/master/.github/SUPPORT.md
     icon: far fa-hands-helping
+  - title: Perplexity
+    description: perplexity.ao
+    url: https://www.perplexity.ai/
+    icon: https://res.cloudinary.com/apideck/image/upload/w_196,f_auto/v1672879312/icons/perplexity-ai.jpg
   
