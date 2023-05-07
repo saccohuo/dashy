@@ -1,51 +1,59 @@
----
-# Page meta info, like heading, footer text and nav links
 pageInfo:
   title: Dashy
   description: Welcome to your new dashboard!
   navLinks:
-  - title: GitHub
-    path: https://github.com/Lissy93/dashy
-  - title: Documentation
-    path: https://dashy.to/docs
-
-# Optional app settings and configuration
+    - title: GitHub
+      path: https://github.com/Lissy93/dashy
+    - title: Documentation
+      path: https://dashy.to/docs
 appConfig:
-  theme: colorful
-
-# Main content - An array of sections, each containing an array of items
+  theme: adventure-basic
+  language: en
 sections:
-- name: Getting Started
-  icon: fas fa-rocket
-  items:
-  - title: Dashy Live
-    description: Development a project management links for Dashy
-    icon: https://i.ibb.co/qWWpD0v/astro-dab-128.png
-    url: https://live.dashy.to/
-    target: newtab
-  - title: GitHub
-    description: Source Code, Issues and Pull Requests
-    url: https://github.com/lissy93/dashy
-    icon: favicon
-  - title: Docs
-    description: Configuring & Usage Documentation
-    provider: Dashy.to
-    icon: far fa-book
-    url: https://dashy.to/docs
-  - title: Showcase
-    description: See how others are using Dashy
-    url: https://github.com/Lissy93/dashy/blob/master/docs/showcase.md
-    icon: far fa-grin-hearts
-  - title: Config Guide
-    description: See full list of configuration options
-    url: https://github.com/Lissy93/dashy/blob/master/docs/configuring.md
-    icon: fas fa-wrench
-  - title: Support
-    description: Get help with Dashy, raise a bug, or get in contact
-    url: https://github.com/Lissy93/dashy/blob/master/.github/SUPPORT.md
-    icon: far fa-hands-helping
-  - title: Perplexity
-    description: perplexity.ao
-    url: https://www.perplexity.ai/
-    icon: https://res.cloudinary.com/apideck/image/upload/w_196,f_auto/v1672879312/icons/perplexity-ai.jpg
-  
+  - name: Getting Started
+    icon: fas fa-rocket
+    items:
+      - title: Dashy Live
+        description: Development a project management links for Dashy
+        icon: https://i.ibb.co/qWWpD0v/astro-dab-128.png
+        url: https://live.dashy.to/
+        target: newtab
+        id: 0_1481_dashylive
+      - title: GitHub
+        description: Source Code, Issues and Pull Requests
+        url: https://github.com/lissy93/dashy
+        icon: favicon
+        id: 1_1481_github
+      - title: Docs
+        description: Configuring & Usage Documentation
+        provider: Dashy.to
+        icon: far fa-book
+        url: https://dashy.to/docs
+        id: 2_1481_docs
+      - title: Showcase
+        description: See how others are using Dashy
+        url: https://github.com/Lissy93/dashy/blob/master/docs/showcase.md
+        icon: far fa-grin-hearts
+        id: 3_1481_showcase
+      - title: Config Guide
+        description: See full list of configuration options
+        url: https://github.com/Lissy93/dashy/blob/master/docs/configuring.md
+        icon: fas fa-wrench
+        id: 4_1481_configguide
+      - title: Support
+        description: Get help with Dashy, raise a bug, or get in contact
+        url: https://github.com/Lissy93/dashy/blob/master/.github/SUPPORT.md
+        icon: far fa-hands-helping
+        id: 5_1481_support
+      - title: Perplexity
+        description: perplexity.ao
+        url: https://www.perplexity.ai/
+        icon: >-
+          https://res.cloudinary.com/apideck/image/upload/w_196,f_auto/v1672879312/icons/perplexity-ai.jpg
+        id: 6_1481_perplexity
+      - title: reccap
+        icon: >-
+          https://reccap.it/images/logo-25bd3e206e65dc7f94cb64a155e3b727.svg?vsn=d
+        url: https://reccap.it/
+        target: newtab
+        id: 7_1481_reccap
